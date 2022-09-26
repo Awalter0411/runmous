@@ -2,6 +2,11 @@
   "private": true,
   "name": "runmous",
   "version": "1.0.0",
+  "author": "vikoala",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vikoala/runmous"
+  },
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",

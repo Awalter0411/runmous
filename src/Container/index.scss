@@ -1,0 +1,40 @@
+.runmous-container {
+  height: 300px;
+}
+
+.runmous-header,
+.runmous-footer,
+.runmous-main,
+.runmous-aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: black;
+}
+
+.runmous-header {
+  height: 20%;
+  background-color: #c6e2ff;
+}
+
+.runmous-main {
+  background-color: #ecf5ff;
+}
+
+.runmous-footer {
+  height: 20%;
+  background-color: #c6e2ff;
+}
+
+.runmous-aside {
+  background-color: #d9ecff;
+}
+
+.is-vertical {
+  flex-direction: column;
+}
+
+.is-horizontal {
+  flex-direction: row;
+}

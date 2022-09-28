@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom';
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Button from './index'
+import Button from './index';
 
 describe('<Button />', () => {
   it('button innerElement', () => {
@@ -11,7 +11,7 @@ describe('<Button />', () => {
   });
 
   it('button type', () => {
-    render(<Button type='primary'>button</Button>);
-    expect(screen.queryByText('button')).toHaveClass('el-button--primary')
-  })
+    render(<Button type="primary">button</Button>);
+    expect(screen.queryByText('button')).toHaveClass('el-button--primary');
+  });
 });

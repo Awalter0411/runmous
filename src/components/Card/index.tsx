@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import './index.scss';
+import '../../theme/card.scss';
 
 interface CardProps {
   /**

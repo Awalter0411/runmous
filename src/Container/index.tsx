@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../theme/container.scss';
+import './index.scss';
 
 interface ContainerProps {
   /**
